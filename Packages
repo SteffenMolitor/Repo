@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Steffen Molitor <steffen.molitor@icloud.com>
 Depends: com.spark.snowboard
 Filename: /debs/StampsDemo.deb
-Size: 4836999
-MD5sum: d964673cf69613e1c3764b14ab9d1b19
-SHA1: 2549ba8561ea342e4dfa2083ac4f807b49cfeea0
-SHA256: 5026e3d079b3b6ff71ae019fc9f839147dd8015995d6f19e42f89630db6f41a0
+Size: 4794414
+MD5sum: 3619947fbaa7a1ab88192d06e221bc1d
+SHA1: 37169fbae99e4f15df47b9dab83555d768d36993
+SHA256: 1ad42152a570608098c42bfffb1d639d1f67e22d775882bc5d6d9f604d1d002e
 Section: Theme Demos
 Description: Demo of Stamps (just a few stock icons for testing the theme)
 Author: Steffen Molitor <steffen.molitor@icloud.com>
