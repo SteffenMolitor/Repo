@@ -1,0 +1,144 @@
+html {
+    font-family: Arial, consolas;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #272727;
+}
+img.X {
+    margin: 0px;
+    margin-top: 15px;
+    height: 100%;
+    width: auto;
+}
+p.X {
+    bottom: 0px;
+    top: 60px;
+    margin: 0px;
+    width: auto;
+    height: 300px;
+    position: fixed;
+}
+p.C {
+    text-align: center;
+    font-family: Arial, consolas;
+    bottom: 0px;
+    top: 30px;
+    margin: 0px;
+    width: 150px;
+    height: 25px;
+    color: red;
+    background-color: #5f5f5f;
+    font-size: 30px;
+    position: absolute;
+}
+p.C:hover ~ p.X{
+    top: 60px;
+    text-align: inherit;
+    margin: 0px;
+    width: auto;
+    height: 600px;
+    position: absolute;
+}
+.content {
+    text-align: center;
+    background-color: #272727;
+    font-family: Arial, consolas;
+    color: #cfcfcf;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 160px;
+    width: calc(100% - 160px);
+    height: auto;
+}
+p.C:hover ~ .content{
+    width: calc(100% - 310px);
+    margin-left: 310px;
+}
+img.new {
+    height: auto;
+    width: calc(100% - 10px);
+}
+div.side {
+    height: 100%;
+    width: 160px;
+    background-color: #5f5f5f;
+    position: fixed;
+    margin: 0px;
+    margin-top: -22px;
+}
+p.C:hover ~ img.content {
+    height: 600px;
+    width: calc(100% - 10px);
+}
+p.C:hover ~ .side {
+    width: 310px;
+}
+li {
+    list-style-type: none;
+}
+h1.t {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+FOOTER {
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    background-color: #5f5f5f;
+    margin: 0px;
+    position: absolute;
+    color: #272727
+}
+a {
+    font-family: Arial, consolas;
+    color: #272727;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul.nav {
+    margin-top: 400px;
+    text-align: left;
+}
+li.nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+p.C:hover ~ ul.nav {
+    margin-top: 675px;
+}
+img.icons {
+    height: auto;
+    width: calc(100% - 10px);
+}
+li.cl::before,
+li.cl::after {
+    content: '-';
+}
+ul.cl {
+}
+a.pr {
+    color: #cfcfcf;
+}
+:target {
+    background-color: #5f5f5f;
+    color: #272727;
+}
+img.app {
+    height: auto;
+    width: 50px;
+    border-radius: 8.7px;
+}
+img.Icon {
+    height: auto;
+    width: 100px;
+    border-radius: 17.5px;
+    float: left;
+    position: absolute;
+    left: calc(160px + 3%);
+    top: 50px;
+}
